@@ -48,7 +48,7 @@ namespace RootCoin
         {
             if (this.FromAddress is null) return true;
 
-            if(this.Signature is null)
+            if (this.Signature is null)
             {
                 throw new Exception("No signature in this transaction.");
             }
